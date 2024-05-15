@@ -19,7 +19,6 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // Depend on the latest Swift 5.9 prerelease of SwiftSyntax
         .package(url: "https://github.com/apple/swift-syntax.git", from: "509.1.0"),
     ],
     targets: [
